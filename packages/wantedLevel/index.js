@@ -1,3 +1,10 @@
+/*
+*
+* Script: Wanted-Level
+* Author: Keanu
+* GitHub: github.com/KeanuLox
+*
+*/
 var globalLevel = 0;
 mp.events.add("globalWantedLevel",(player,level) => {
   globalLevel = level;
